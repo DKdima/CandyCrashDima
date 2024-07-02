@@ -1,0 +1,135 @@
+<!--
+CandyCrush
+Your Name: Dima
+-->
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+
+	<head>
+		<title>Tu Juego</title>
+		<script src="columna1.js"></script>
+		<script src="columna3.js"></script>
+		<link rel="stylesheet" href="estilosEjercicio.css">
+		
+	</head>
+	<body>
+		<div class="contenido">
+			<div class="column1">
+				<h1 class="titulo-juego">Candy Crush</h1>
+				<button  class="boton-nuevo-juego" onclick="cambiarColoresAleatorios()">New Game</button>
+			</div>
+
+			<div class="column2" >
+				<table class="tablero-juego" id="tabla">
+					<tr>
+						<td class="a1">a1</td>
+						<td class="a2">a2</td>
+						<td class="a3">a3</td>
+						<td class="a4">a4</td>
+						<td class="a5">a5</td>
+						<td class="a6">a6</td>
+						<td class="a7">a7</td>
+						<td class="a8">a8</td>
+					</tr>
+					<tr>
+						<td class="b1">b1</td>
+						<td class="b2">b2</td>
+						<td class="b3">b3</td>
+						<td class="b4">b4</td>
+						<td class="b5">b5</td>
+						<td class="b6">b6</td>
+						<td class="b7">b7</td>
+						<td class="b8">b8</td>
+					</tr>
+					<tr>
+						<td class="c1">c1</td>
+						<td class="c2">c2</td>
+						<td class="c3">c3</td>
+						<td class="c4">c4</td>
+						<td class="c5">c5</td>
+						<td class="c6">c6</td>
+						<td class="c7">c7</td>
+						<td class="c8">c8</td>
+					</tr>
+					<tr>
+						<td class="d1">d1</td>
+						<td class="d2">d2</td>
+						<td class="d3">d3</td>
+						<td class="d4">d4</td>
+						<td class="d5">d5</td>
+						<td class="d6">d6</td>
+						<td class="d7">d7</td>
+						<td class="d8">d8</td>
+					</tr>
+					<tr>
+						<td class="e1">e1</td>
+						<td class="e2">e2</td>
+						<td class="e3">e3</td>
+						<td class="e4">e4</td>
+						<td class="e5">e5</td>
+						<td class="e6">e6</td>
+						<td class="e7">e7</td>
+						<td class="e8">e8</td>
+					</tr>
+					<tr>
+						<td class="f1">f1</td>
+						<td class="f2">f2</td>
+						<td class="f3">f3</td>
+						<td class="f4">f4</td>
+						<td class="f5">f5</td>
+						<td class="f6">f6</td>
+						<td class="f7">f7</td>
+						<td class="f8">f8</td>
+					</tr>
+					<tr>
+						<td class="g1">g1</td>
+						<td class="g2">g2</td>
+						<td class="g3">g3</td>
+						<td class="g4">g4</td>
+						<td class="g5">g5</td>
+						<td class="g6">g6</td>
+						<td class="g7">g7</td>
+						<td class="g8">g8</td>
+					</tr>
+					<tr>
+						<td class="h1">h1</td>
+						<td class="h2">h2</td>
+						<td class="h3">h3</td>
+						<td class="h4">h4</td>
+						<td class="h5">h5</td>
+						<td class="h6">h6</td>
+						<td class="h7">h7</td>
+						<td class="h8">h8</td>
+					</tr>
+				</table>
+			</div>
+			<div class="column3">
+				<div class="move-container">
+					<p>Move: <input type="text" id="move-input"/></p>
+				</div>
+				<div class="botones">
+					<table>
+						<tr>
+							<td></td>
+							<td><button class="arriba">&#129041;</button></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><button class="izquierda">&#129040;</button></td>
+							<td></td>
+							<td><button class="derecha">&#129042;</button></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><button class="abajo">&#129043;</button></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+				<button class="Crush_Once">Crush Once</button>
+			</div>
+		</div>
+
+	</body>
+</html>

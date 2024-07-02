@@ -1,0 +1,104 @@
+
+			.contenido {
+				font-family: Arial, sans-serif;
+				display: flex;
+				align-items: center;
+				position:absolute;
+			}
+
+			/* Columna 1 - Título del juego y botón de nuevo juego */
+			.column1 {
+				text-align: center;
+				width:25%;
+			}
+
+			.titulo-juego {
+				font-weight: bold;
+				color: red;
+			}
+
+			.boton-nuevo-juego {
+				background-color: grey;
+				padding: 10px 20px;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+
+			/* Columna 2 - Tablero de juego */
+			.column2 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 10px;
+				width:50%;
+			}
+
+			.tablero-juego {
+				width: 320px;
+				height: 320px;
+				border: 2px solid #CFD3D5;
+				border-collapse: collapse;
+			}
+
+			.tablero-juego td {
+				border: 1px solid #ccc;
+				text-align: center;
+			}
+
+			/* Columna 3 - Estilos para las celdas */
+			.column3 {
+			
+				align-items: center;
+				text-align: center;
+				margin: 10px;
+				width:25%;
+			}
+
+			.move-container {
+			   text-align: center;
+				padding: 10px;
+			}
+
+			.move-container p {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+
+			#move-input {
+				border: 2px solid #33A8FF;
+				border-radius: 0px;
+				padding: 5px;
+				width: 20px;
+			}
+
+			.botones {
+				margin: 10px;
+				padding-bottom:10px;
+			}
+
+			.botones table {
+				margin: 0 auto;
+			}
+
+			.botones button {
+				font-size: 24px;
+			}
+
+			.Crush_Once {
+				background-color: #CFD3D5;
+				padding: 10px 20px;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+
+			.arriba {
+				width: 40px;
+			}
+
+			.abajo {
+				width: 40px;
+			}
+
+
